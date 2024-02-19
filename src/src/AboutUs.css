@@ -1,0 +1,40 @@
+.about-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(220, 211, 211, 0.8); /* Set background color with transparency */
+  font-family: Lucida Handwriting;
+  position: relative; /* Position relative for z-index */
+  z-index: 1; /* Ensure the text is above the background image */
+}
+
+.about-us-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-us-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Apply background image to the body or another container */
+/* CSS for the AboutUs component */
+.aboutimage {
+  width: 100%;
+  height: 100%;
+  background-image: url('D:\header\header\public\connect.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  object-fit: cover; /* Retain object-fit property */
+  position: fixed; /* Fixed positioning */
+  top: 0;
+  left: 0;
+  z-index: -1; /* Keeps the background image behind other content */
+}
+
+
+  
+  

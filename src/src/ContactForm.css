@@ -1,0 +1,38 @@
+/* CSS for the contact form */
+.contact-form {
+  width: 300px;
+  height: 300px; /* Adjust height as needed */
+  position: absolute;
+  color: #030303;
+  top: 50%;
+  left: 50%; /* Align the left edge of the form to the horizontal center */
+  transform: translate(-50%, -50%); /* Center the form vertically and horizontally */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0 auto; /* Center the form horizontally */
+  text-align: center; /* Center the text inside the form */
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  display: block;
+  width: calc(100% - 40px); /* Adjust width to account for padding */
+  margin: 10px auto; /* Center the inputs and button horizontally */
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 3px solid #fdfbfb;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
